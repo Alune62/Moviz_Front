@@ -34,7 +34,7 @@ function Home() {
     </div>
   );
   useEffect(() => {
-    fetch('https://moviz-back-nu.vercel.app/movies')
+    fetch('https://moviz-back-two.vercel.app/movies')
       .then(res => res.json())
       .then(data => {
         if (data.result) {
